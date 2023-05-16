@@ -1,0 +1,516 @@
+.main {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.header {
+    background-color: '#ffffff';
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bottom {
+    height: 91.5vh;
+    background-image: url(../assets/images/background.png);
+}
+
+.logo {
+    width: 120px;
+    height: 38px;
+    padding-left: 100px;
+}
+
+.header-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-list-main {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.list a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 64px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.list {
+    float: left;
+}
+
+.search-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search {
+    width: 18px;
+    height: 18px;
+    padding-left: 550px;
+}
+
+.search:hover {
+    cursor: pointer;
+}
+
+.login-text {
+    display: block;
+    color: black;
+    background-color: white;
+    border: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 67px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.join-now-button {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 160px;
+    height: 38px;
+    background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+    border-radius: 52px;
+    border: none;
+    margin-left: 64px;
+}
+
+.join-now {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.join-now-button:hover {
+    cursor: pointer;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    padding-left: 64px;
+    font-weight: 500;
+}
+
+.text-image {
+    width: 45px;
+    margin-bottom: 25px;
+    height: 45px;
+    margin-left: 144px;
+}
+
+.common-text-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.banner-header-main {
+    padding-top: 30px;
+    padding-left: 144px;
+    padding-bottom: 48px;
+}
+
+.banner-header-line1 {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: white;
+}
+
+.colored {
+    color: rgba(0, 150, 255, 1);
+    font-family: 'Roboto', sans-serif;
+}
+
+.striked {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.left-bottom {
+    float: left;
+}
+
+.card-main {
+    width: 450px;
+    height: 590px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 250px;
+    border-radius: 8px;
+
+}
+
+.card-header-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+
+.round {
+    width: 30px;
+    display: flex;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #0096FF;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.inner-text {
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+}
+
+.inner-text-value {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-top: 7px;
+    color: #3C4852;
+}
+
+.number-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.subscription-header {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+    padding-top: 12px;
+    color: #3C4852;
+}
+
+.subscribe-main {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* align-content: center; */
+    margin-top: 12px;
+}
+
+.subscribe-body {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    background-color: black;
+    border-radius: 6px;
+
+}
+
+hr {
+    border: none;
+    height: 0.5px;
+    width: 420px;
+    background-color: #8b8b8b;
+    margin: 10px ;
+}
+
+.subscription-fee {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    color: #3C4852;
+}
+
+.subscription-month-text {
+    font-size: 13px;
+    color: #3C4852;
+    width: 190px;
+    display: flex;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tick {
+    width: 20px;
+    height: 20px;
+}
+
+.subscribe-expired {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    background-color: #E7E7E7;
+    border-radius: 6px;
+    padding: 10px;
+    border: 2px solid;
+    border-color: #BEBEBE
+}
+
+.subscription-month-text-expired {
+    font-size: 13px;
+    color: #BEBEBE;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.expired-radio {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: #BEBEBE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.expired-radio-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 15.25px;
+    height: 15.5px;
+    background-color: #BEBEBE;
+    border-radius: 100px;
+}
+
+.total-amount {
+    font-size: 13px;
+    color: #3C4852;
+    font-weight: 600;
+}
+
+.total-amount-main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    align-items: flex-end;
+}
+
+.total-amount-month {
+    font-size: 12px;
+    color: #3C4852;
+}
+
+.per-month {
+    font-size: 12px;
+    color: #b7b7b7;
+}
+
+.expired-main {
+    width: 90px;
+    position: absolute;
+    top: 13.2rem;
+    background-color: #F77171;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-left: 40px;
+    padding: 1px;
+}
+
+.expired-main-text {
+    font-size: 9px;
+    color: white;
+}
+
+.expired-main-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-text-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-fee-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.subscription-fee-amount {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    display: flex;
+    font-weight: 600;
+    padding-left: 223px;
+    color: #3C4852;
+}
+
+.limited-time-offer-main {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #FBE5D7;
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid;
+    border-color: #DE4313
+}
+
+.limited-main-main{
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+.limited-time-offer-text{
+    display: flex;
+    flex-direction: column;
+    color: #DE4313;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 7px;
+    align-items: flex-start;
+}
+
+.limited-time-offer-offer{
+   font-weight: 200;
+   font-size: 11px;
+   padding-top: 3px;
+}
+
+.discount-amount{
+    width: 205px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.clock-offer{
+    width: 15px;
+    height: 15px;
+    fill: #DE4313;
+    padding-right: 5px;
+}
+
+.clock-text{
+    display: flex;
+    padding-top: 5px;
+}
+
+.discount-amount-text{
+    font-size: 13px;
+    font-weight: 600;
+    color: #3C4852;
+    
+}
+
+.total-amount-display{
+    color: #0048FF;
+}
+
+.total-inclusive{
+    font-size: 13px;
+    font-weight: 600;
+    color: #3C4852;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.total-inclusive-of-taxes{
+    font-size: 13px;
+    padding-top: 5px;
+    padding-left: 3px;
+    color: #3C4852;
+}
+
+.inclusive{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.inclusive-total-amount{
+    font-size: 16px;
+    font-weight: 600;
+    color: #3C4852;
+    display: flex;
+    padding-top: 5px;
+    width: 245px;
+    justify-content: flex-end;
+}
+
+.bottom-buttons{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+}
+
+.cancel-button{
+    width: 180px;
+    height: 40px;
+    font-size: 12px;
+    border: 1px solid;
+    border-color: #F77171;
+    background-color: white;
+    color: #F77171;
+    cursor: pointer;
+
+}
+
+.proceed-to-pay{
+    width: 180px;
+    height: 40px;
+    font-size: 12px;
+    border: 1px solid;
+    border-color: #47BA68;
+    background-color: #47BA68;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.razorpay{
+    width: 100px;
+    height: 40px;
+    padding-left: 25px;
+}
